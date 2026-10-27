@@ -1,0 +1,11 @@
+Test Case,Input,Expected Result,Status
+TC01,PDF resume,Text should be extracted,Pending
+TC02,DOCX resume,Text should be extracted,Pending
+TC03,Resume with Python,Python should be detected,Pending
+TC04,Resume with SQL,SQL should be detected,Pending
+TC05,Resume with ML skills,ML related skills should be detected,Pending
+TC06,Data Analyst resume,Data Analyst should appear among recommendations,Pending
+TC07,ML resume,Machine Learning Engineer should appear among recommendations,Pending
+TC08,Resume with missing skills,Missing skills should be displayed,Pending
+TC09,Resume with all required skills,Skill match should approach 100%,Pending
+TC10,Unsupported file,Application should reject unsupported format,Pending
